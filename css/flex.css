@@ -1,0 +1,106 @@
+header>nav {
+
+    display: flex;
+
+
+}
+
+nav ul {
+    display: flex;
+
+
+    list-style-type: none;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+
+
+    text-align: center;
+
+
+
+}
+
+nav a {
+    display: flex;
+    margin-left: 75px;
+    margin-right: 75px;
+
+
+
+}
+
+header {
+    display: flex;
+    flex-basis: 100%;
+
+}
+
+main {
+    display: flex;
+    flex-basis: 30%;
+
+}
+
+aside {
+    display: flex;
+    flex-basis: 70%;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+aside header {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    border: solid 1px black;
+    text-align: center;
+    background-color: rgb(141, 134, 134);
+    font-size: 32px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+main header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside p {
+    margin: 15px;
+}
+
+aside {
+    background-color: rgb(172, 172, 172);
+    display: flex;
+
+}
+
+footer header {
+
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+footer img {
+    width: 150px;
+    margin-top: 5px;
+}

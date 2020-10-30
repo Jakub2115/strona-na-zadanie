@@ -1,0 +1,115 @@
+body * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.container>* {
+    padding: 1em;
+}
+
+header {
+
+    background-color: lightgrey;
+
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+
+
+nav a {
+    display: block;
+    padding: 1em;
+    background-color: dimgray;
+    border: 1px solid black;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+
+
+
+}
+
+a:hover {
+    background-color: hsl(228, 4%, 26%);
+    color: hsl(0, 100%, 100%);
+    border: 1px solid rgb(8, 8, 8);
+}
+
+main {
+    background-color: whitesmoke;
+
+    flex-basis: 30%;
+}
+
+
+
+aside {
+    background-color: grey;
+    flex-basis: 70%;
+}
+
+footer {
+    background-color: hsl(225, 3%, 70%);
+}
+
+h3 p {
+    border: solid 1px black;
+    text-align: center;
+    background-color: rgb(141, 134, 134);
+
+}
+
+h3 p:hover {
+    color: rgb(12, 12, 12);
+    background-color: hsl(225, 2%, 64%);
+}
+
+h3 {
+    padding: 3px;
+    margin-top: 50px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+h3 img {
+    width: 200px;
+    margin-left: 75px;
+}
+
+
+aside h4 {
+
+    font-size: 35px;
+
+}
+
+aside img {
+    width: 250px;
+    background-color: rgb(172, 172, 172)
+}
+
+main header {
+    font-size: 32px;
+    margin-bottom: 25px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+aside p {
+    background-color: ivory;
+    margin-left: 40px;
+
+
+
+}
